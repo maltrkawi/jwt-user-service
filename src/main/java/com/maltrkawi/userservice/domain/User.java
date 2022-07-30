@@ -15,6 +15,7 @@ import static javax.persistence.GenerationType.AUTO;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "UserTbl")
 public class User {
     @Id @GeneratedValue(strategy = AUTO)
     private Long id;
