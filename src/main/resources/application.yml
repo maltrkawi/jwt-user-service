@@ -1,10 +1,10 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://localhost\MSSQL2016;databaseName=UserRegistration;encrypt=true;trustServerCertificate=true
+    url: jdbc:sqlserver://localhost\MSSQL2016;databaseName=UserServiceDb;encrypt=true;trustServerCertificate=true
     username: sa
     password: Manager_123
     driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
   jpa:
     show-sql: true
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
